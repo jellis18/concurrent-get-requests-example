@@ -7,14 +7,14 @@ This repo hosts code related to this [blog post](https://jellis18.github.io/post
 To run locally you will need to have Go and python installed. You will also need `curl` and `jq` installed. You can
 also run in github codespaces or locally using the devcontainer.
 
-#### Go
+### Go
 
 ```bash
 go build -o get-todos get_todos.go
 ./get-todos 200
 ```
 
-#### Python
+### Python
 
 You will need httpx installed. You can install it with `pip install httpx`.
 
@@ -22,7 +22,7 @@ You will need httpx installed. You can install it with `pip install httpx`.
 python3 get_todos.py 200
 ```
 
-#### Bash
+### Bash
 
 ```bash
 bash get_todos.sh 200
